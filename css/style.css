@@ -11,7 +11,7 @@
     --color-primary-light: #AFCEDD;
     --color-text: #1E1E1E;
     --color-text-white: #fff;
-    --color-text-mute: #d0d0d0;
+    --color-text-mute: #696969;
     --color-text-primary: #526FAA;
 
     --border-raidus: 8px;
@@ -69,7 +69,7 @@ h1 ,h2 ,h3 {
 /* Btn */
 .btn {
     border: 0;
-    padding: 2.2rem 1.2rem;
+    padding: 2rem;
     border-radius: var(--border-raidus);
 }
 
