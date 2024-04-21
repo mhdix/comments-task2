@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'vazir-medium';
+    src: url(Vazir-Medium.woff) format('woff'), url(Vazir-Medium.woff2) format('woff2'); 
+}
+@font-face {
+    font-family: 'vazir-bold';
+    src: url(Vazir-Bold.woff) format('woff'), url(Vazir-Bold.woff2) format('woff2'); 
+}
+@font-face {
+    font-family: 'vazir';
+    src: url(Vazir.woff) format('woff'), url(Vazir.woff2) format('woff2'); 
+}
+
+body,button,input {
+    font-family: 'vazir';
+}
+h1,h2,h3 {
+    font-family: 'vazir-bold';
+}
