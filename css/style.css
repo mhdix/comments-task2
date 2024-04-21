@@ -50,13 +50,19 @@ h1 ,h2 ,h3 {
     padding: 2rem 3rem;
 }
 .block-y {
-    padding: 2rem 0 ;
+    padding: 3rem 0 ;
 }
 .text-mute {
     color: var(--color-text-mute);
 }
 .text-primary {
     color: var(--color-text-primary);
+}
+.text-medium {
+    font-size: 1.2rem;
+}
+.text-bold {
+    font-family: 'vazir-bold';
 }
 /* Defualt */
 
@@ -74,9 +80,26 @@ h1 ,h2 ,h3 {
 
 /* Badge */
 .badge {
-    padding: 1rem 2rem;
+    padding: 0.6rem 1.6rem;
     font-size: 1.2rem;
     background-color: var(--color-primary-light);
     border-radius: var(--border-raidus);
+}
+
+/* Header */
+/* .item__header {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+} */
+.item__header {
+    display: grid;  
+    grid-template-columns:auto 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+.item__header .header__date{
+    justify-self: end;
 }
 /* User image */
