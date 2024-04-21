@@ -60,6 +60,7 @@ h1 ,h2 ,h3 {
 }
 .text-medium {
     font-size: 1.2rem;
+    font-weight: normal;
 }
 .text-bold {
     font-family: 'vazir-bold';
@@ -102,4 +103,27 @@ h1 ,h2 ,h3 {
 .item__header .header__date{
     justify-self: end;
 }
-/* User image */
+
+/* footer */
+.item__footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__img{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+
+}
+.footer__img img{
+    border-radius: var(--border-raidus);
+    order: -1;
+    object-fit: cover;
+    width: fit-content;
+    height: fit-content;
+}
+.footer__img h3{
+    display: flex;
+    align-self: center;
+}
