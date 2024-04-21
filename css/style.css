@@ -10,8 +10,11 @@
     --color-primary: #219f95;
     --color-primary-light: #AFCEDD;
     --color-text: #1E1E1E;
+    --color-text-white: #fff;
     --color-text-mute: #d0d0d0;
     --color-text-primary: #526FAA;
+
+    --border-raidus: 8px;
 }
 html {
     font-size: 62.5%;
@@ -41,7 +44,16 @@ h1 ,h2 ,h3 {
 /* Defualt */
 
 /* Btn */
+.btn {
+    border: 0;
+    padding: 2.2rem 1.2rem;
+    border-radius: var(--border-raidus);
+}
 
+.btn--primary{
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
+}
 /* Badge */
 
 /* User image */
