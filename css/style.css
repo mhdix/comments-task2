@@ -87,23 +87,28 @@ h1 ,h2 ,h3 {
     border-radius: var(--border-raidus);
 }
 
+/* comment box item */
+.comment-box__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 /* Header */
-/* .item__header {
-    display: flex;  
-    align-items: center;
-    justify-content: space-between;
-} */
 .item__header {
     display: grid;  
     grid-template-columns:auto 1fr 1fr;
     align-items: center;
     justify-content: space-between;
     justify-items: center;
+    gap: 1rem;
 }
 .item__header .header__date{
     justify-self: end;
 }
-
+.header__title {
+    display: flex;
+    justify-self: flex-start;
+}
 /* footer */
 .item__footer{
     display: flex;
