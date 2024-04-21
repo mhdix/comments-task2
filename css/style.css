@@ -42,6 +42,16 @@ h1 ,h2 ,h3 {
     }
 }
 /* Modifire */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.block {
+    padding: 2rem 3rem;
+}
+.block-y {
+    padding: 2rem 0 ;
+}
 .text-mute {
     color: var(--color-text-mute);
 }
