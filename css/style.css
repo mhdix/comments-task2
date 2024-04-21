@@ -87,6 +87,12 @@ h1 ,h2 ,h3 {
     border-radius: var(--border-raidus);
 }
 
+/* comment box */
+.comment-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
 /* comment box item */
 .comment-box__item {
     display: flex;
